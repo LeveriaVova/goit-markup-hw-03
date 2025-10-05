@@ -345,8 +345,7 @@ p {
 }
 
 .footer-container {
-  display: flex;
-  flex-direction: column;
+  пшеflex-direction: column;
   align-items: flex-start;
 }
 
