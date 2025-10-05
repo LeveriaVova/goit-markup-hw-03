@@ -134,9 +134,6 @@ p {
 /* #endregion Header styles */
 
 /*#region Hero section styles */
-.hero-section {
-  padding: 188px 0;
-}
 
 .hero-container {
 }
@@ -144,6 +141,8 @@ p {
 .hero {
   background-color: #2e2f42;
   color: #ffffff;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-weight: 700;
@@ -208,11 +207,12 @@ p {
 .excel-list {
   display: flex;
   gap: 24px;
-  width: calc(100% - 24px * 3) / 4;
-  justify-content: space-between;
+
+  justify-content: center;
 }
 
 .excel-item {
+  width: calc((100% - 24px * 3) / 4);
 }
 
 .excel-title {
@@ -315,7 +315,7 @@ p {
 }
 
 .portf-wrapper {
-  padding: 32px 0;
+  padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -328,30 +328,26 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  padding-left: 16px;
-  padding-right: auto;
 }
 .portf-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-left: 16px;
-  padding-right: auto;
 }
 /* #endregion Portfolio section styles */
 
 /* #region Footer styles */
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .logo-footer {
@@ -360,6 +356,7 @@ p {
 }
 
 .logo-footer-part {
+  display: inline-block;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   color: #f4f4fd;
